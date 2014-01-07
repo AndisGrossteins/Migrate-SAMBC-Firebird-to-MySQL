@@ -26,8 +26,7 @@ ob_implicit_flush(TRUE);
 /**
  * @constant Firebird database path
  */
-define('FB_DATABASE', 'D:/Users/Andis/AppData/Local/SpacialAudio/SAMBC/backup/H2O_2013-11-03.072143/SAMDB.fdb');
-//define('FB_DATABASE', 'D:/Users/Andis/AppData/Local/SpacialAudio/SAMBC/backup/SAMDB.fdb');
+define('FB_DATABASE', 'D:/Users/Andis/AppData/Local/SpacialAudio/SAMBC/SAMDB/SAMDB.fdb');
 
 /**
  * @constant Firebird hostname and port. Usually it is 'localhost' for local machine
@@ -52,12 +51,12 @@ define('MYSQL_HOST', 'localhost');
 /**
  * @constant MySQL user
  */
-define('MYSQL_USER', 'root');
+define('MYSQL_USER', 'mysqluser');
 
 /**
  * @constant MySQL password
  */
-define('MYSQL_PASS', 'EzLddezNNq9c4XAu');
+define('MYSQL_PASS', 'mysqlpassword');
 
 /**
  * @constant MySQL database
